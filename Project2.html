@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>My Profile</title>
+    <link id="style" rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+</head>
+<body id="top">
+    <header>
+        <center>
+            <img id="img" src="Profile.jpg" align="left">
+            <p><strong style="font-size: 30pt;">Chris Vanhoven</strong></p>
+            <p><strong style="font-size: 15pt;">1155 W 1330 S Orem, Utah, 84058</strong></p>
+            <p><strong style="font-size: 15pt;">(925) 323-0055</strong style></p>
+            <p><strong style="font-size: 15pt;">topherv8@gmail.com</strong></p>
+            <div style="padding-top: 50px;">
+                <a href="#background" class="menu" style="margin-right: 20px;">To Background</a>
+                <a href="#buttons" class="menu">To Categories</a>
+            </div>
+        </center>
+    </header>
+    <hr>
+    <main>
+        <section class="categ">
+            <div id="background">
+                <h1 id="background">Background</h1>
+                <div class="flex">
+                    <div>
+                        <h3>Birth Place </h3>
+                        <p>Shingle Springs, California</p>
+                    </div>
+                    <div>
+                        <h3>Family</h3>
+                        <p>Parents: Chris and Katie Vanhoven</p>
+                        <p>Siblings: Brianna, Corina, Kyra, Aurelia</p>
+                    </div>
+                    <div>
+                        <h3>School</h3>
+                        <p>- Springhill Elementary School</p>
+                        <p>- Stanley Middle School</p>
+                        <p>- Acalanes High School</p>
+                    </div>
+                </div>
+            </div>
+            <div id="buttons">
+                <button type="button" onclick="show('section1')">Academics</button>
+                <button type="button" onclick="show('section2')">Programming</button>
+                <button type="button" onclick="show('section3')">Hobbies</button>
+                <button type="button" onclick="show('section4')">Social Media</button>
+                <hr>
+            </div>
+            <div id="section1">
+                <h1>Academics</h1>
+                <div class="flex">
+                    <div>
+                        <h2>Utah Valley University</h2>
+                        <div class="info">
+                            <div class="back">
+                                <h2>Major</h2>
+                                <h3>Bachelors of Science in Computer Science</h3>
+                            </div>
+                            <div class="back">
+                                <h2>Previous CS Classes</h2>
+                                <ul>
+                                    <li>AP Java class in High School</li>
+                                    <li>CS 1400: Fundamentals of Programming (Python)</li>
+                                    <li>CS 1410: Object-Oriented Programming (Python)</li>
+                                    <li>CS 2300: Discrete Mathematics I</li>
+                                    <li>CS 2420: Introduction to Algorithms and Data Structures (C++)</li>
+                                </ul>
+
+                            </div>
+                            <div class="back">
+                                <h2>Current CS Classes</h2>
+                                <ul>
+                                    <li>CS 2550: Web Programming I (HTML, Javascript, CSS)</li>
+                                    <li>CS 2600: Computer Networks I</li>
+                                </ul>
+                            </div>
+                            <div class="back">
+                                <h2>CS Classes Next Semester</h2>
+                                <ul>
+                                    <li>CS 2690: Computer Networks II</li>
+                                    <li>CS 305G: Computer Ethics</li>
+                                    <li>CS 3240: Discrete Mathematics II</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section2">
+                <h1>Programming</h1>
+                <div class="flex">
+                    <div class="info">
+                        <div class="back">
+                            <h2>Known Languages</h2>
+                            <ul>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>C++</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="back">
+                            <h2>Current Project</h2>
+                            <p>I am currently working on a TaskList project where the user will input a task that they wish to pin to their task list.</p>
+                            <p>There they will be able to add tasks, adjust task, delete task, and check tasksoff.</p>
+                            <p>I have finished the HTML/CSS/Javascript needed to make it function as needed.</p>
+                            <p>I am now attempting to put it onto a server that will run constantly and will save the list</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section3">
+                <h1>Hobbies</h1>
+                <div class="flex">
+                    <div class="info">
+                        <div class="back">
+                            <h2>Gaming</h2>
+                            <p>I am an avid video game player who mainly plays fps games. (first person shooter)</p>
+                            <p>Games: Counter Strike: Global Offensive, Destiny 2, Call of Duty: Modern Warfare, and League of Legends.</p>
+                            <a href="https://steamcommunity.com/profiles/76561198070489778/" target="_blank"><img src="Capture.PNG" style="width: 200px;" align=left></a>
+                            <h3 style="padding-top: 20px;">Profile: AngryRhino</h3>
+                        </div>
+                        <div class="back">
+                            <h2>Game Clip from Destiny 2</h2>
+                            <video width="400" height="300" controls>
+                                <source src="Destiny.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section4">
+                <h1>Social Media</h1>
+                <div class="flex">
+                    <div class="info">
+                        <div class="back">
+                            <h2>Facebook</h2>
+                            <a href="https://www.facebook.com/bob.dindo" target="_blank"><img src="facebook.png" style="margin-left: 0px;"></a>
+                        </div>
+                        <div class="back">
+                            <h2>Instagram</h2>
+                            <a href="https://www.instagram.com/vanhoven.chris/" target="_blank"><img src="instagram.jpg" style="margin-left: 0px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button type="button" onclick="show('valid')">Validation Form</button>
+        <section class="valid" id="valid">
+            <div class="back">
+                <h1>Contact Form</h1>
+                <form id="myform" class="needs-validation" novalidate action="https://wp.zybooks.com/form-viewer.php">
+                  <ul class="flex">
+                      <section>
+                    <li>
+                      <label for="first-name">First Name</label>
+                      <input type="text" id="first-name" placeholder="Enter your first name here">
+                    </li>
+                    <li>
+                      <label for="last-name">Last Name</label>
+                      <input type="text" id="last-name" placeholder="Enter your last name here">
+                    </li>
+                    <li>
+                        <label for="address">Address</label>
+                        <input type="text" id="address" placeholder="Enter your address here">
+                    </li>
+                    <li>
+                        <label for="city">City</label>
+                        <input type="text" id="city" placeholder="Enter your city here">
+                    </li>
+                    <li>
+                       <label for="state">State</label>
+                       <input type="text" id="state" placeholder="Enter your state here">
+                    </li>
+                    <li>
+                      <label for="email">Email</label>
+                      <input type="email" id="email" placeholder="Enter your email here">
+                    </li>
+                    <li>
+                      <label for="phone">Phone (format: XXX-XXX-XXXX)</label>
+                      <input type="tel" id="phone" placeholder="Enter your phone here">
+                    </li>
+                    </section>
+                    <section>
+                    <li>
+                       <h2>How did you find this page?</h2>
+                    </li>
+                    <li>
+                      
+                      <input type="checkbox" id="find1" name='find' value="friends">
+                      <label for="find1">Friends</label>
+                    </li>
+                    <li>
+                      
+                      <input type="checkbox" id="find2" name='find' value="internet">
+                      <label for="find2">Internet</label>
+                    </li>
+                     <li>
+                      
+                      <input type="checkbox" id="find3" name='find' value="browsing">
+                      <label for="find3">Just from Browsing</label>
+                    </li>
+                   </section>
+                   <section>
+                    <li>
+                        <h2>How did you like my page?</h2>
+                     </li>
+                     <li>
+                       
+                       <input type="radio" id="like1" name='did-you-like' value="good">
+                       <label for="like1">Good</label>
+                     </li>
+                     <li>
+                       
+                       <input type="radio" id="like2" name='did-you-like' value="avg">
+                       <label for="like2">Average</label>
+                     </li>
+                      <li>
+                       
+                       <input type="radio" id="like3" name='did-you-like' value="bad">
+                       <label for="like3">Bad</label>
+                     </li>
+                    </section>
+                    <section>
+                    <li>
+                      <label for="message">Comment</label>
+                      <textarea rows="4" id="message" placeholder="Enter your comment here"></textarea>
+                    </li>
+                    </section>
+                    <section>
+                    <li>
+                      <button type="submit">Submit</button>
+                    </li>
+                    </section>
+                  </ul>
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#top" class="menu">Back to top</a>
+        <button type="button" onclick="changeStyle()">Change style(toggle)</button>
+    </footer>
+
+    <script src="validation.js"></script>
+    <script>
+        $(document).ready(function(ev) {
+            initValidation("#myform");
+        });
+    </script>
+</body>
+</html>
